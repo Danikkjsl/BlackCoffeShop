@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Каталог кавомашин BlackCoffe">
+    <title>BlackCoffe | Каталог</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="catalog.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="site-header-inner">
+        <a class="site-logo" href="index.html">
+            <img src="Logo.jpg" alt="">
+            <span>BlackCoffe</span>
+        </a>
+
+        <nav class="site-nav" id="siteNav" aria-label="Головна навігація">
+            <a href="index.html">Головна</a>
+            <a href="catalog.html" class="active" aria-current="page">Каталог</a>
+            <a href="servis.html">Сервіс</a>
+        </nav>
+
+        <div class="site-header-actions">
+            <a class="site-phone" href="tel:+380989412027">
+                ☎ <span>098 941 20 27</span>
+            </a>
+
+            <button class="site-cart-button" id="cartBtn" type="button" aria-label="Відкрити кошик">
+                🛒 <span class="site-cart-count" id="cartCount">0</span>
+            </button>
+
+            <button class="site-burger" id="siteBurger" type="button"
+                    aria-label="Відкрити меню"
+                    aria-controls="siteNav"
+                    aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<main class="catalog">
+    <h1>Каталог кавомашин</h1>
+
+    <div class="filters">
+        <button class="filter-btn active" data-brand="all">Усі</button>
+        <button class="filter-btn" data-brand="delonghi">DeLonghi</button>
+        <button class="filter-btn" data-brand="philips">Philips</button>
+        <button class="filter-btn" data-brand="saeco">Saeco</button>
+    </div>
+
+    <section class="products">
+
+        <!-- DELONGHI -->
+
+        <article class="product" data-brand="delonghi" data-name="DeLonghi Magnifica" data-price="19990">
+            <img class="product-img" src="https://delonghi.ua/storage/shop/product/image/descr/816/delonghi_ecam_29081_tb_magnifica_evo2_ar.png" alt="DeLonghi Magnifica">
+            <h3>DeLonghi Magnifica</h3>
+            <p class="price">19 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="delonghi" data-name="DeLonghi Dinamica" data-price="24990">
+            <img class="product-img" src="https://delonghi.ua/storage/shop/product/image/descr/861/delonghi_ecam_35955_b_dinamica2_zw.png" alt="DeLonghi Dinamica">
+            <h3>DeLonghi Dinamica</h3>
+            <p class="price">24 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="delonghi" data-name="DeLonghi ECAM" data-price="27990">
+            <img class="product-img" src="https://delonghi.ua/storage/shop/product/image/descr/816/delonghi_ecam_29081_tb_magnifica_evo2_ar.png" alt="DeLonghi ECAM">
+            <h3>DeLonghi ECAM</h3>
+            <p class="price">27 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="delonghi" data-name="DeLonghi PrimaDonna" data-price="39990">
+            <img class="product-img" src="DeLonghi PrimaDonna (2).png" alt="DeLonghi PrimaDonna">
+            <h3>DeLonghi PrimaDonna</h3>
+            <p class="price">39 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="delonghi" data-name="DeLonghi Eletta" data-price="34990">
+            <img class="product-img" src="DeLonghi Eletta.png" alt="DeLonghi Eletta">
+            <h3>DeLonghi Eletta</h3>
+            <p class="price">34 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="delonghi" data-name="DeLonghi Autentica" data-price="26990">
+            <img class="product-img" src="DeLonghi Autentica.png" alt="DeLonghi Autentica">
+            <h3>DeLonghi Autentica</h3>
+            <p class="price">26 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="delonghi" data-name="DeLonghi Dedica" data-price="10990">
+            <img class="product-img" src="DeLonghi Dedica.png" alt="DeLonghi Dedica">
+            <h3>DeLonghi Dedica</h3>
+            <p class="price">10 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="delonghi" data-name="DeLonghi Maestosa" data-price="54990">
+            <img class="product-img" src="DeLonghi Maestosa.png" alt="DeLonghi Maestosa">
+            <h3>DeLonghi Maestosa</h3>
+            <p class="price">54 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="delonghi" data-name="DeLonghi ESAM" data-price="17990">
+            <img class="product-img" src="DeLonghi ESAM.png" alt="DeLonghi ESAM">
+            <h3>DeLonghi ESAM</h3>
+            <p class="price">17 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="delonghi" data-name="DeLonghi Caffe Corso" data-price="15990">
+            <img class="product-img" src="DeLonghi Caffe Corso.png" alt="DeLonghi Caffe Corso">
+            <h3>DeLonghi Caffe Corso</h3>
+            <p class="price">15 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="delonghi" data-name="DeLonghi Magnifica S" data-price="19990">
+            <img class="product-img" src="DeLonghi Magnifica S.png" alt="DeLonghi Magnifica S">
+            <h3>DeLonghi Magnifica S</h3>
+            <p class="price">19 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="delonghi" data-name="DeLonghi Rivelia" data-price="42990">
+            <img class="product-img" src="DeLonghi Rivelia.png" alt="DeLonghi Rivelia">
+            <h3>DeLonghi Rivelia</h3>
+            <p class="price">42 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <!-- PHILIPS -->
+
+        <article class="product" data-brand="philips" data-name="Philips 2200" data-price="14990">
+            <img class="product-img" src="vrs_674d5c773c4203380f7049cbab6258747c118b78.webp" alt="Philips 2200">
+            <h3>Philips 2200</h3>
+            <p class="price">14 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="philips" data-name="Philips LatteGo" data-price="19990">
+            <img class="product-img" src="Philips LatteGo (1).png" alt="Philips LatteGo">
+            <h3>Philips LatteGo</h3>
+            <p class="price">19 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="philips" data-name="Philips Series 5400" data-price="29990">
+            <img class="product-img" src="vrs_a2ebbd77a11ed5458c9668bcc527a0aa138a82d7.webp" alt="Philips Series 5400">
+            <h3>Philips Series 5400</h3>
+            <p class="price">29 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="philips" data-name="Philips 1200 Series" data-price="12990">
+            <img class="product-img" src="Philips 1200 Series.webp" alt="Philips 1200 Series">
+            <h3>Philips 1200 Series</h3>
+            <p class="price">12 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="philips" data-name="Philips 3200 LatteGo" data-price="19990">
+            <img class="product-img" src="Philips 3200 LatteGo.webp" alt="Philips 3200 LatteGo">
+            <h3>Philips 3200 LatteGo</h3>
+            <p class="price">19 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="philips" data-name="Philips 4300 Series" data-price="25990">
+            <img class="product-img" src="Philips 4300 Series.webp" alt="Philips 4300 Series">
+            <h3>Philips 4300 Series</h3>
+            <p class="price">25 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="philips" data-name="Philips 5400 LatteGo" data-price="30990">
+            <img class="product-img" src="Philips 5400 LatteGo.png" alt="Philips 5400 LatteGo">
+            <h3>Philips 5400 LatteGo</h3>
+            <p class="price">30 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="philips" data-name="Philips EP2220" data-price="14990">
+            <img class="product-img" src="Philips 1200 Series.webp" alt="Philips EP2220">
+            <h3>Philips EP2220</h3>
+            <p class="price">14 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="philips" data-name="Philips EP3246" data-price="19990">
+            <img class="product-img" src="Philips 3200 LatteGo.webp" alt="Philips EP3246">
+            <h3>Philips EP3246</h3>
+            <p class="price">19 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="philips" data-name="Philips Barista Brew" data-price="16990">
+            <img class="product-img" src="Philips 1200 Series.webp" alt="Philips Barista Brew">
+            <h3>Philips Barista Brew</h3>
+            <p class="price">16 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="philips" data-name="Philips Grind & Brew" data-price="17990">
+            <img class="product-img" src="Philips 1200 Series.webp" alt="Philips Grind & Brew">
+            <h3>Philips Grind & Brew</h3>
+            <p class="price">17 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="philips" data-name="Philips Intense+" data-price="23990">
+            <img class="product-img" src="Philips LatteGo (1).png" alt="Philips Intense+">
+            <h3>Philips Intense+</h3>
+            <p class="price">23 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <!-- SAECO -->
+
+        <article class="product" data-brand="saeco" data-name="Saeco Lirika" data-price="22990">
+            <img class="product-img" src="Logo.jpg" alt="Saeco Lirika">
+            <h3>Saeco Lirika</h3>
+            <p class="price">22 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="saeco" data-name="Saeco PicoBaristo" data-price="34990">
+            <img class="product-img" src="Logo.jpg" alt="Saeco PicoBaristo">
+            <h3>Saeco PicoBaristo</h3>
+            <p class="price">34 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="saeco" data-name="Saeco Xelsis" data-price="59990">
+            <img class="product-img" src="Logo.jpg" alt="Saeco Xelsis">
+            <h3>Saeco Xelsis</h3>
+            <p class="price">59 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="saeco" data-name="Saeco Royal" data-price="29990">
+            <img class="product-img" src="Logo.jpg" alt="Saeco Royal">
+            <h3>Saeco Royal</h3>
+            <p class="price">29 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="saeco" data-name="Saeco Aulika" data-price="37990">
+            <img class="product-img" src="Logo.jpg" alt="Saeco Aulika">
+            <h3>Saeco Aulika</h3>
+            <p class="price">37 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="saeco" data-name="Saeco Magic" data-price="54990">
+            <img class="product-img" src="Logo.jpg" alt="Saeco Magic">
+            <h3>Saeco Magic</h3>
+            <p class="price">54 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="saeco" data-name="Saeco Area" data-price="21990">
+            <img class="product-img" src="Logo.jpg" alt="Saeco Area">
+            <h3>Saeco Area</h3>
+            <p class="price">21 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="saeco" data-name="Saeco Vienna" data-price="18990">
+            <img class="product-img" src="Logo.jpg" alt="Saeco Vienna">
+            <h3>Saeco Vienna</h3>
+            <p class="price">18 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="saeco" data-name="Saeco Incanto" data-price="24990">
+            <img class="product-img" src="Logo.jpg" alt="Saeco Incanto">
+            <h3>Saeco Incanto</h3>
+            <p class="price">24 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="saeco" data-name="Saeco GranBaristo" data-price="38990">
+            <img class="product-img" src="Logo.jpg" alt="Saeco GranBaristo">
+            <h3>Saeco GranBaristo</h3>
+            <p class="price">38 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="saeco" data-name="Saeco Xsmall" data-price="16990">
+            <img class="product-img" src="Logo.jpg" alt="Saeco Xsmall">
+            <h3>Saeco Xsmall</h3>
+            <p class="price">16 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+        <article class="product" data-brand="saeco" data-name="Saeco Minuto" data-price="20990">
+            <img class="product-img" src="Logo.jpg" alt="Saeco Minuto">
+            <h3>Saeco Minuto</h3>
+            <p class="price">20 990 ₴</p>
+            <div class="buttons">
+                <button class="add-btn">Додати в кошик</button>
+                <a href="info-magnifica.html" class="info-btn">Інформація</a>
+            </div>
+        </article>
+
+    </section>
+</main>
+
+<!-- Кошик -->
+<aside class="cart" id="cart" aria-label="Кошик">
+    <div class="cart-header">
+        <h2>🛒 Кошик</h2>
+        <button class="cart-close" id="cartClose" type="button" aria-label="Закрити кошик">✕</button>
+    </div>
+
+    <div id="cartItems"></div>
+
+    <p class="total">Разом: <span id="total">0</span> ₴</p>
+    <button class="checkout" id="checkoutBtn" type="button">Оформити замовлення</button>
+</aside>
+
+<!-- Повідомлення -->
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <button class="close-modal" id="closeModal" type="button" aria-label="Закрити">✕</button>
+        <h2 id="modalTitle"></h2>
+        <p id="modalText"></p>
+    </div>
+</div>
+
+<script src="catalog.js"></script>
+</body>
+</html>
