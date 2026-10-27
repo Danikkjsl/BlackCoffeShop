@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BlackCoffe — кавомашини, каталог і сервіс.">
+    <title>BlackCoffe | Головна</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="blackcoffe.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="site-header-inner">
+        <a class="site-logo" href="index.html">
+            <img src="Logo.jpg" alt="">
+            <span>BlackCoffe</span>
+        </a>
+
+        <nav class="site-nav" id="siteNav" aria-label="Головна навігація">
+            <a href="index.html" class="active" aria-current="page">Головна</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="servis.html">Сервіс</a>
+        </nav>
+
+        <div class="site-header-actions">
+            <a class="site-phone" href="tel:+380989412027">
+                ☎ <span>098 941 20 27</span>
+            </a>
+
+            <button class="site-burger" id="siteBurger"
+                    type="button"
+                    aria-label="Відкрити меню"
+                    aria-controls="siteNav"
+                    aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="home-hero">
+        <div class="home-copy">
+            <span class="eyebrow">Кава починається тут</span>
+
+            <h1>Твоя ідеальна кава <span>щодня</span></h1>
+
+            <p>
+                Обирай кавомашину для дому чи офісу, відкривай популярні
+                моделі та довіряй обслуговування спеціалістам BlackCoffe.
+            </p>
+
+            <div class="hero-actions">
+                <a class="btn primary" href="catalog.html">Переглянути каталог</a>
+                <a class="btn secondary" href="servis.html">Сервіс кавомашин</a>
+            </div>
+
+            <div class="benefits">
+                <span>✓ Перевірені моделі</span>
+                <span>✓ Допомога з вибором</span>
+                <span>✓ Професійний сервіс</span>
+            </div>
+        </div>
+
+        <div class="home-image">
+            <img src="premium.png" alt="Кавомашина BlackCoffe">
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="heading">
+            <span class="eyebrow">Наші переваги</span>
+            <h2>Усе для хорошої кави</h2>
+            <p>Допомагаємо підібрати техніку та підтримувати її в чудовому стані.</p>
+        </div>
+
+        <div class="feature-grid">
+            <article class="feature-card">
+                <span class="feature-icon">☕</span>
+                <h3>Каталог кавомашин</h3>
+                <p>Моделі різних брендів для дому, офісу та щоденного використання.</p>
+                <a href="catalog.html">Обрати кавомашину →</a>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-icon">⚙</span>
+                <h3>Діагностика та ремонт</h3>
+                <p>Допомога з несправностями, обслуговуванням і профілактикою техніки.</p>
+                <a href="servis.html">Детальніше про сервіс →</a>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-icon">✓</span>
+                <h3>Допомога з вибором</h3>
+                <p>Орієнтуйся на свої звички, потрібні функції та бюджет.</p>
+                <a href="catalog.html">Переглянути моделі →</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="home-cta">
+        <div>
+            <span class="eyebrow">BlackCoffe</span>
+            <h2>Обери кавомашину для своєї кавової історії</h2>
+            <p>Переглянь каталог або зв’яжися з нами, якщо потрібна допомога.</p>
+        </div>
+
+        <a class="btn primary" href="catalog.html">До каталогу</a>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="site-footer-inner">
+        <a class="site-logo" href="index.html">
+            <img src="Logo.jpg" alt="">
+            <span>BlackCoffe</span>
+        </a>
+
+        <p>© <span id="currentYear"></span> BlackCoffe. Усі права захищено.</p>
+    </div>
+</footer>
+
+<script src="blackcoffe.js"></script>
+</body>
+</html>
